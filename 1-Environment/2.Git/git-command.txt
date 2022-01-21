@@ -1,0 +1,58 @@
+#Step 1: Print the current tree
+tree
+
+#Step 2: Print the current branch (master) to get the id of the commit
+git show
+
+# Step 3: examine your commit
+git show -s --pretty=raw 9aee566d15a6a9ca132381a470417e1fdeaac0ba
+
+# Step 4: show the current file names of this tree 
+git show -s --pretty=raw  42542ada1cd99504c61ec93b0d41ed1d0b16bca9
+
+# summary the branch
+git log --pretty=oneline master
+
+
+## or display the "mode, object type, SHA1 name, and name" in the tree 
+git ls-tree 42542ada1cd99504c61ec93b0d41ed1d0b16bca9
+
+
+#Step 5: cat a file blob
+git cat-file -p fa27cbde7baafd0263bc985e6522fc8257dcd8fb
+
+# Current config list
+git config -l
+
+# tracking files in our repo
+git status
+
+# Show all branhes: * for the current one
+git branch
+
+
+# Show all commit points: * HEAD and current
+git log
+
+# untrack all files
+
+git rm -r --cached .
+
+
+
+git checkout master
+git merge bio
+
+# Define a target server as origin
+git remote add origin https://github.com/berradais/burger.git
+
+# del origin
+git remote remove origin
+
+git pull burger
+git push  https://github.com/berradais/burger.git  master
+git push -f origin master
+git checkout bio
+git log
+git remote -v
+git config --list

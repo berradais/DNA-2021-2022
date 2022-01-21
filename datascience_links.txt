@@ -1,0 +1,10 @@
+
+- DT as feature selection descriptor
+https://www.researchgate.net/post/What-is-the-disadvantage-of-using-Information-Gain-for-feature-selection
+
+- https://www.kaggle.com/kashnitsky/topic-6-feature-engineering-and-feature-selection
+
+- https://towardsdatascience.com/understanding-the-roc-and-auc-curves-a05b68550b69
+
+-https://towardsdatascience.com/getting-data-ready-for-modelling-feature-engineering-feature-selection-dimension-reduction-77f2b9fadc0b
+
