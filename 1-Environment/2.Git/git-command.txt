@@ -13,6 +13,8 @@ git show -s --pretty=raw  42542ada1cd99504c61ec93b0d41ed1d0b16bca9
 # summary the branch
 git log --pretty=oneline master
 
+# mode of ls-tree
+https://stackoverflow.com/questions/737673/how-to-read-the-mode-field-of-git-ls-trees-output
 
 ## or display the "mode, object type, SHA1 name, and name" in the tree 
 git ls-tree 42542ada1cd99504c61ec93b0d41ed1d0b16bca9
