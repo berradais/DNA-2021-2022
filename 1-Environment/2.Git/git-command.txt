@@ -32,7 +32,6 @@ git status
 # Show all branhes: * for the current one
 git branch
 
-
 # Show all commit points: * HEAD and current
 git log
 
@@ -40,7 +39,11 @@ git log
 
 git rm -r --cached .
 
+# print the graph tree
+git log --all --decorate --oneline --graph
 
+# print branch names
+git show-branch --all --list --more=4
 
 git checkout master
 git merge bio
